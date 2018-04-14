@@ -1,3 +1,5 @@
-document.querySelector('#btn').addEventListener('click', function(ev) {
-	alert('Привет!')
+document.addEventListener('DOMContentLoaded', function(ev) {
+	document.querySelector('#btn').addEventListener('click', function(ev) {
+		alert('Привет!')
+	});
 });
